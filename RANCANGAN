@@ -1,0 +1,35 @@
+- DATABASE 
+====================
+1. DAFTAR
+- NAMA
+- EMAIL
+- KONTAK WA
+- PASSWORD
+- STATUS (MAHASISWA - BUKAN MAHASISWA)
+
+
+2. UPLOAD
+- JUDUL
+- GAMBAR
+- DESKRIPSI
+- STATUS (LAYAK - TIDAK LAYAK)
+
+- MENU DESAINER
+====================
+- BERANDA (ISI SEMUA LOGO YANG PERNAH DIUPLOAD)
+- PROFIL (EDIT BIODATA DAN LENGKAPI)
+- UPLOAD GAMBAR (MENGUPLOAD APA SAYA YANG PERNAH DIBUAT DESAIN)
+
+
+
+- MENU ADMIN
+====================
+- BERANDA
+- DESAINER (VERIFIKASI DESAINER DAFTAR, VERIFIKASI UPLOAD GAMBAR DESAINER)
+
+
+- MENU USER
+====================
+- BERANDA (BRAND, penjelasan fitur apa saja yang ada di jasakita, profil desainer terbaik)
+- CARI DESAINER (cari desainer yang tidak ada job)
+- TENTANG KAMI (belum dipikirkan)
