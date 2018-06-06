@@ -2,15 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const router = require('./routes/index')
-/*const siswa = require('./routes/siswa')
-const flash = require('connect-flash');
-const session = require('express-session');
-const cookieParser = require('cookie-parser');
-*/
-/*app.use(cookieParser('keyboard cat'));
-app.use(session({ cookie: { maxAge: 60000 }}));
-app.use(flash());
-*/
+const desainer = require('./routes/desainer')
 
 //setup view engine/
 app.set('views', __dirname+'/views/')
@@ -29,6 +21,8 @@ app.use(express.static('public'))
 
 
 app.use('/', router);
+app.use('/desainer', desainer);
+
 
 const port = process.env.PORT || 3000;
 
